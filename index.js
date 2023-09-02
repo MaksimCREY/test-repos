@@ -10,3 +10,8 @@ function min(a,b){
 function umn(a,b){
     return a*b;
 }
+function squareSum(numbers){
+    return numbers.reduce(function(sum, n){
+      return (n*n) + sum;
+    }, 0)
+  }
